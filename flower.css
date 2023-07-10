@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* banner section  */
+
+.banner-section {
+  background-color: #e554731a;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-div {
+  color: #272727;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 70px;
+}
+
+.paragraph-text {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+header img {
+  padding-top: 110px;
+  width: 390px;
+  height: 490px;
+}
+
+.shop-now-button{
+background-color: palevioletred;
+color: white;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+border: 20px solid palevioletred;
+border-radius: 10px;
+}
