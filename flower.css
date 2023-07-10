@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* banner section  */
 
@@ -14,7 +17,7 @@
 
 .text-div {
   color: #272727;
-  font-size: 80px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -30,9 +33,10 @@
 }
 
 header img {
-  padding-top: 110px;
-  width: 390px;
-  height: 490px;
+  padding-top: 20px;
+  /* width: 390px; */
+  height: 580px;
+  padding-right: 100px;
 }
 
 .shop-now-button{
@@ -43,4 +47,6 @@ font-style: normal;
 font-weight: 700;
 border: 20px solid palevioletred;
 border-radius: 10px;
+
 }
+
