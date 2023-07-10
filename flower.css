@@ -2,28 +2,31 @@
   margin: 0;
   padding: 0;
 }
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
 /* banner section  */
 
+/* background color of banner  */
 .banner-section {
   background-color: #e554731a;
-  height: 600px;
+  height: 500px;
   display: flex;
   justify-content: space-around;
 }
 
+/* banner text div  */
 .text-div {
   color: #272727;
-  font-size: 60px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   padding-top: 70px;
 }
 
+/* paragraph text inner banner  */
 .paragraph-text {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
@@ -32,21 +35,26 @@ body{
   line-height: 30px;
 }
 
+/* positioning the banner image  */
 header img {
-  padding-top: 20px;
+  padding-top: 30px;
   /* width: 390px; */
-  height: 580px;
+  height: 470px;
   padding-right: 100px;
 }
 
-.shop-now-button{
-background-color: palevioletred;
-color: white;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-border: 20px solid palevioletred;
-border-radius: 10px;
-
+/* design of shop now button  */
+.shop-now-button {
+  background-color: palevioletred;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border: 15px solid palevioletred;
+  border-radius: 5px;
 }
+
+/* finish of header section  */
+
+/* main section starts  */
 
