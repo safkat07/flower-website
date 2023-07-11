@@ -124,7 +124,7 @@ main img {
 
 .bg-image {
   height: 350px;
-  background-image: url('./Rectangle9.png');
+  background-image: url("./Rectangle9.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: 145px;
@@ -267,9 +267,60 @@ footer span {
   margin-top: 100px;
 }
 
-.bonus-image ul{
+.bonus-image ul {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  gap: 1px;
+  /* align-items: center; */
   list-style: none;
+  margin: 0px 170px;
+}
+.image-01 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 350px;
+  height: 400px;
+}
+.image-02 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 350px;
+  height: 400px;
+}
+
+.image-02 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 350px;
+  height: 400px;
+}
+
+.image-03 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 350px;
+  height: 400px;
+}
+
+.image01-set {
+  padding-top: 80px;
+}
+
+.image02-set {
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.image03-set {
+  padding-top: 80px;
+  padding-left: 30px;
+}
+
+.flower-title {
+  color: #272727;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
 }
