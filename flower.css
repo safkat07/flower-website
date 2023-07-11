@@ -133,7 +133,7 @@ main img {
 }
 
 .email-title {
-  padding-top: 50px;
+  padding-top: 100px;
   text-align: center;
   color: #272727;
   font-size: 40px;
@@ -155,4 +155,30 @@ main img {
   border-radius: 5px;
   padding: 10px;
   padding-inline-end: 350px;
+}
+
+.footer-background {
+  background: #111010;
+  height: 50vh;
+}
+.footer-title {
+  color: white;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+  padding-top: 100px;
+}
+footer span {
+  color: #e55473;
+}
+.footer-paragraph {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
